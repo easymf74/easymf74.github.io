@@ -217,8 +217,8 @@ footer a:hover{
     }
    
 }
-/*@media all and (max-height: 25em){*/
-@media only screen and (orientation: landscape) {
+@media all and (max-height: 25em){
+/*@media only screen and (orientation: landscape) {*/
     header{
 		width:100%;
 		position:static;
