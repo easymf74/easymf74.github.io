@@ -38,6 +38,10 @@ header{
 header h1{
 	text-align: center;
 	font-family:serif;
+	color: white;
+}
+header h1 a{
+    text-decoration: none;
 }
 
 #ariwa-logo{
@@ -162,7 +166,7 @@ footer a:hover::before{
 footer a:hover{
 	transition: 1s;
 	transition-delay: 0.5s;
-	color: #ff8c1a;
+	color: white;
 }
 
 #facebook{
