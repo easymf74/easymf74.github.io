@@ -204,10 +204,14 @@ footer a:hover{
  */
 @media all and (max-width: 30em){
     main{
-	margin-top: 15em;
+	margin-top: 0.5em;
 	display: flex;
 	flex-direction: column;
     }
+    header{
+		width:100%;
+		position:static;
+	}
     header h1{
 	float: left;
     }
