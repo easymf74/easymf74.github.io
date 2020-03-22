@@ -18,6 +18,10 @@ li{
 	margin:0.4em;
 }
 
+li a{
+    color: #ff8c1a;
+}
+
 main a:hover {
   background-color: yellow;
   color:#190;
