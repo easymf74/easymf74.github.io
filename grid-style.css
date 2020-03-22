@@ -36,7 +36,7 @@ header{
 
 
 header h1{
-    margin-top: 0.6em;
+    margin-top: 1.6em;
     text-align: center;
     font-family:serif;
 }
@@ -129,7 +129,7 @@ section{
     	border-style: solid;
 	border-width: thick;
 	border-color: white;
-	border-radius: 2px;
+	border-radius: 0.8em;
 }
 
 
@@ -155,7 +155,7 @@ footer a::before{
 	top: 0;
 	height: 0%;
 	width: 0%;
-	background-color: #ffbf80;
+	background-color: darkgrey;
 	transition: all 1s;
 	z-index:-1;
 }
