@@ -32,15 +32,16 @@ main a:hover {
 header{
 	grid-area: head;
 	background-color: #ff8c1a;
+	margin-bottom: 0.5em;
 }
 
 
 header h1{
-    margin-top: 1.6em;
     text-align: center;
     font-family:serif;
 }
 header h1 a{
+    margin-top: 1.6em;
     color: white;
     text-decoration: none;
 }
