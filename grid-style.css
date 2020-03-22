@@ -19,7 +19,7 @@ li{
 }
 
 li a{
-    color: #ff8c1a;
+    color: #e65c00;
 }
 
 main a:hover {
@@ -42,6 +42,10 @@ header h1{
 width:240px;
 height:100px;
 float:left;
+border-style: solid;
+border-width: thick;
+border-color: white;
+border-radius: 2px;
 }
 
 main{
@@ -117,7 +121,7 @@ section{
 footer{
 
 	grid-area: foot;
-	background-color: #ff9900;
+	background-color: #ff8c1a;
 	padding-right:1.5em;
 
 	display: flex;
@@ -148,7 +152,7 @@ footer a:hover::before{
 footer a:hover{
 	transition: 1s;
 	transition-delay: 0.5s;
-	color: #E3B363;
+	color: #ff8c1a;
 }
 
 #facebook{
