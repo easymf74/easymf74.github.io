@@ -132,7 +132,7 @@ footer a::before{
 	top: 0;
 	height: 0%;
 	width: 0%;
-	background-color: #E3B363;
+	background-color:  #1E36AE;
 	transition: all 1s;
 	z-index:-1;
 }
@@ -144,7 +144,7 @@ footer a:hover::before{
 footer a:hover{
 	transition: 1s;
 	transition-delay: 0.5s;
-	color: #1E36AE;
+	color: #E3B363;
 }
 
 #facebook{
