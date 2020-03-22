@@ -58,15 +58,9 @@ main{
 }
 
 section{
-    /*
-	margin:0.2em;
-	padding: 0.3em;
-   */
-	border-style: solid;
-	border-width: thick;
-	border-color: white;
-	border-radius: 2px;
+    	padding: 0.4em;
 }
+
 #dokumentation{
 	grid-area: doku;
 	display:grid;
@@ -124,6 +118,14 @@ section{
 #books{
 	grid-area:book;
 }
+
+#dokumentation, #youtube_channel, #information, #books{
+    	border-style: solid;
+	border-width: thick;
+	border-color: white;
+	border-radius: 2px;
+}
+
 
 footer{
 
