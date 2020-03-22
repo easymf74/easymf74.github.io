@@ -1,0 +1,188 @@
+/*
+ * grid-style.css
+ */
+ 
+body{
+	background-color: #eff;
+	margin:0;
+	padding:0;
+	display: grid;
+	grid-template-areas:	
+			"head"
+			"main" 
+			"foot";
+}
+ 
+li{
+	list-style:none;
+	margin:0.4em;
+}
+
+main a:hover {
+  background-color: yellow;
+  color:#190;
+}
+
+header{
+	grid-area: head;
+	background-color:#FFF;
+}
+
+
+header h1{
+	text-align: center;
+	font-family:serif;
+}
+#eos-logo{
+width:100px;
+height:100px;
+float:left;
+}
+
+main{
+	grid-area: main;
+	display:grid;
+	grid-template-areas:
+		"doku info" 
+		"yout book"; 
+}
+
+section{
+	margin:0.2em;
+	padding: 0.3em;
+}
+#dokumentation{
+	grid-area: doku;
+	display:grid;
+	grid-template-areas:
+		"headline"
+		"youtube"
+		"netflix";
+}
+	#dokumentation #h2{
+		grid-area: headline;
+	}
+	#youtube,#netflix{
+		margin:0.0em;
+		padding: 0.1em;
+	}
+	#youtube{
+		grid-area: youtube;
+		display: grid;
+		grid-template-columns:15% 85%;
+		grid-template-areas:
+			"hyt uyt";
+	}
+	
+	#youtube h4{
+			margin: 0;
+			grid-area: hyt;
+	}
+	
+	#youtube ul{
+		margin:0;
+		grid-area: uyt;
+	}
+	#netflix{
+		grid-area: netflix;
+		display: grid;
+		grid-template-columns:15% 85%;
+		grid-template-areas:
+			"hnet unet";
+	}
+	#netflix h4{
+		margin:0;
+		grid-area: hnet;
+	}
+	#netflix ul{
+		margin:0;
+		grid-area: unet;
+	}
+	
+#youtube_channel{
+	grid-area:yout;
+}
+#information{
+	grid-area:info;
+}
+#books{
+	grid-area:book;
+}
+
+footer{
+
+	grid-area: foot;
+	background-color: #BEF;
+	padding-right:1.5em;
+
+	display: flex;
+	justify-content: flex-end;
+}
+
+footer a{
+	margin-right: 0.5em;
+	position:relative;
+}
+
+footer a::before{
+	content: '';
+	position: absolute;
+	right: -1em;
+	top: 0;
+	height: 0%;
+	width: 0%;
+	background-color: #E3B363;
+	transition: all 1s;
+	z-index:-1;
+}
+footer a:hover::before{
+	width: 110%;
+	height: 100%;
+}
+
+footer a:hover{
+	transition: 1s;
+	transition-delay: 0.5s;
+	color: #1E36AE;
+}
+
+#facebook{
+	padding-right: 0.2em;
+	width:7em;
+	height:1em;
+}
+
+
+/*
+ * Fixieren von Header und Footer nur, wenn genug Platz ist
+ */
+@media all and (min-height: 10em){
+	header{
+		width:100%;
+		position:fixed;
+	}
+	header h1{
+		margin:0;
+		padding:0;
+	}
+	main{
+		margin-top:5.5em;
+		margin-bottom:1em;
+	}
+	footer{
+		bottom:0;
+		width:100%;
+		position:fixed;
+	}
+}
+
+/*
+ * Umschalten auf Flexmodel in einer Spalte
+ * bei kleinen Bildschirmbreiten
+ */
+@media all and (max-width: 30em){
+	main{
+		display: flex;
+		flex-direction: column;
+	}
+}
