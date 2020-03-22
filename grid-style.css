@@ -204,7 +204,7 @@ footer a:hover{
  */
 @media all and (max-width: 30em){
     main{
-	margin-top: 14em;
+	margin-top: 15em;
 	display: flex;
 	flex-direction: column;
     }
