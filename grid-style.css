@@ -20,6 +20,7 @@ li{
 
 li a{
     color: #e65c00;
+    font-weight: bold;
 }
 
 main a:hover {
@@ -57,8 +58,10 @@ main{
 }
 
 section{
+    /*
 	margin:0.2em;
 	padding: 0.3em;
+   */
 	border-style: solid;
 	border-width: thick;
 	border-color: white;
