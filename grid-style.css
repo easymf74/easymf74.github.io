@@ -25,7 +25,7 @@ main a:hover {
 
 header{
 	grid-area: head;
-	background-color:#FFF;
+	background-color: #ff8c1a;
 }
 
 
@@ -132,7 +132,7 @@ footer a::before{
 	top: 0;
 	height: 0%;
 	width: 0%;
-	background-color:  #1E36AE;
+	background-color: #ffbf80;
 	transition: all 1s;
 	z-index:-1;
 }
