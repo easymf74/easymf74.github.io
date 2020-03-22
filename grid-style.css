@@ -202,7 +202,7 @@ footer a:hover{
  * Umschalten auf Flexmodel in einer Spalte
  * bei kleinen Bildschirmbreiten
  */
-@media all and (max-width: 30em){
+@media all and (max-width: 30em OR max-height: 15em){
     main{
 	margin-top: 0.5em;
 	display: flex;
