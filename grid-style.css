@@ -3,14 +3,14 @@
  */
  
 body{
-	background-color: #d9d9d9;
-	margin:0;
-	padding:0;
-	display: grid;
-	grid-template-areas:	
-			"head"
-			"main" 
-			"foot";
+    border-color: white;
+    margin:0;
+    padding:0;
+    display: grid;
+    grid-template-areas:	
+	"head"
+	    "main" 
+	    "foot";
 }
  
 li{
@@ -64,7 +64,9 @@ main{
 }
 
 section{
-    	padding: 0.4em;
+    margin: 0.3em;
+    padding: 0.4em;
+    background-color: #d9d9d9;    
 }
 
 #dokumentation{
