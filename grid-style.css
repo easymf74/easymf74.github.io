@@ -33,6 +33,7 @@ header h1{
 	text-align: center;
 	font-family:serif;
 }
+
 #ariwa-logo{
 width:240px;
 height:100px;
@@ -112,7 +113,7 @@ section{
 footer{
 
 	grid-area: foot;
-	background-color: #BEF;
+	background-color: #ff9900;
 	padding-right:1.5em;
 
 	display: flex;
