@@ -36,11 +36,12 @@ header{
 
 
 header h1{
-	text-align: center;
-	font-family:serif;
-	color: white;
+    margin-top: 0.6em;
+    text-align: center;
+    font-family:serif;
 }
 header h1 a{
+    color: white;
     text-decoration: none;
 }
 
