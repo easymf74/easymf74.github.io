@@ -58,8 +58,8 @@ main{
 	grid-area: main;
 	display:grid;
 	grid-template-areas:
-		"doku info" 
-		"yout book"; 
+		"doku book" 
+		"yout info"; 
 }
 
 section{
